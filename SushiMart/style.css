@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+/*first section*/
+#first{
+  
+    background-image:url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    padding-bottom: 6%;
+  background-color: #678d7c;
+ 
+}
+.title h1{
+    padding-left: 80px;
+    display: block;
+    margin-top: 9%;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 75px;
+    word-spacing: 1px;
+}
+.title h6{
+    margin-top: 5%;
+    padding-left: 80px;
+    display: block;
+    color: #f1eeee;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    word-spacing: 1px;
+    
+}
+.title p{
+    margin-top: 20px;
+    padding-left: 80px;
+    display: block;
+    color: #f1eeee;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    word-spacing: 1px;
+    margin-bottom: 60px;
+    
+}
+.top{
+    background-color: #21243d;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content:left;
+}
+.logo p{
+    color: white;
+    margin-top: 23px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar ul li a{
+    color: white;
+    justify-content:space-evenly;
+    padding:10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(151, 145, 145);
+}
+.search{
+    padding: 10px;
+}
+#first img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    color: white;
+    background-color: #21243d;
+    border-radius: 75px;
+    padding: 20px 65px 20px 65px;
+    margin-left: 10%;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+button:hover{
+    background-color: #30355a;
+    cursor: pointer;
+}
+.dropbtn {
+  display: none;
+  background-color: #272b2a;
+  border-radius: 25px;
+  color: white;
+  padding: 1px;
+  border: none;
+  font-family: 'Archivo';
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.navbar a:hover{
+  background-color: #ddd;
+}
+.dropdown:hover .navbar{
+  display: block;
+}
+.dropdown:hover .dropbtn{
+  background-color: #464846;
+}
+
+/*second section*/
+
+#second{
+    background-color: #21243d;
+    background-image:url(../img/design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 134px;
+
+}
+#second h3{
+    padding-top: 104px;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    word-spacing: 1px;
+}
+#second p{
+    padding-top: 3%;
+    color: rgb(207, 205, 205);
+    text-align: center;
+    font-family: 'Lato';
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    
+}
+ .menu{
+    display: flex;
+    padding-top: 5%;
+    justify-content: space-evenly;
+    text-align: center;
+    flex: wrap;
+}
+.dish h4{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+.dish p{
+  font-size: 18px;
+}
+.dish img {
+    border-radius: 50%;
+    
+}
+
+/*section 3*/
+#third{
+    background-color: #ffd17e;
+    background-image:url(../img/design1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 134px;
+    padding-top: 185px;
+}
+.imagetext{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagetext img{
+    border-radius: 50%;
+    
+}
+
+.text{
+    text-align: center;
+}
+.text h2{
+    color: #21243d;
+    font-size: 50px;
+    font-weight: 40px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.text p{
+    padding: 30px;
+    color: #21243d;
+    text-align: lcenter;
+    font-size: 22px;
+    width: 90%;
+    padding-left: 25%;
+}
+
+/*fourth*/
+#fourth{
+    background-color: #21243d;
+    background-image:url(../img/design2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 134px;
+}
+#fourth h3{
+    padding-top: 98px;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    word-spacing: 1px;
+}
+#fourth p{
+    padding-top: 3%;
+    color: rgb(207, 205, 205);
+    text-align: center;
+    font-family: 'Lato';
+    width: 50%;
+    margin: 0 auto;
+    font-size: 22px;
+
+}
+.total{
+    display: flex;
+    padding-top: 2%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;    
+    
+}
+.ratio{
+    color: white;
+    width: 220px;
+    height: 220px;
+    background-color: #21243d;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 70px 80px 70px 10px ;
+    border: 4px solid #ffffff;
+    text-align: center;
+    padding: 50px 0; 
+}
+.ratio h1{
+    font-weight: 500px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*fifth*/
+#fifth{
+    background-image:url(../img/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+}
+.picture{
+    border-radius: 50%;
+    
+ }
+ .inner {
+    height: 500px;
+    opacity: 80% ;
+    background-color: #21243d;
+    max-width: 100%;
+    
+ }
+ .child{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding-top: 5%;
+ }
+ .child p{
+    font-size: 27px;
+    font-weight: 1px;
+    padding-bottom: 3%;
+    width: 80%;
+    text-align: center;
+    padding-left: 20%;
+ }
+ 
+ /*footer*/
+
+ .box9{
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    padding-left: 4%;
+    
+  }
+  .details{
+    display: flex;
+    justify-content: space-around;
+  }
+  .box9 > div {
+    flex: 1;
+    
+  }
+  .box9 > div.special {
+    flex: 2; 
+  }
+  .box9 p{
+    padding-top: 15px;
+    color: rgb(207, 199, 199);
+    font-family: 'Nunito';
+  }
+  .box9 a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .box9 a:hover{
+    color: #bfbbbb;
+  }
+  .box9 ul{
+    
+    list-style: none;
+    color: rgb(207, 199, 199);
+    line-height: 2;
+    padding: 0;
+    font-family: 'Nunito';
+    
+  }
+  .box9 h3{
+    font-style: bold;
+    font-family: 'Archivo';
+    padding-bottom: 26px;
+    letter-spacing: 1px;
+  }
+  .box img{
+    padding-top: 37px;
+   }
+  .dropbtn {
+    display: none;
+    background-color: #272b2a;
+    border-radius: 25px;
+    color: white;
+    padding: 1px;
+    border: none;
+    font-family: 'Archivo';
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .navbar {
+    display: none;
+    position: absolute;
+    background-color: #b8b6b6;
+    border-radius: 7px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .navbar a {
+    color: rgb(24, 23, 23);
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Archivo';
+    border-radius: 7px;
+    display: block;
+  }
+  .navbar a:hover{
+    background-color: #ddd;
+  }
+  .dropdown:hover .navbar{
+    display: block;
+  }
+  .dropdown:hover .dropbtn{
+    background-color: #464846;
+  }
+
+  /*media queries*/
+
+  @media screen and (min-width: 1000px){
+    .total{
+        padding-left: 3%;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+  }
+  @media screen and (max-width: 850px){
+   
+    .menu{
+       
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    #second{
+      background-size: contain;
+    }
+    #third{
+      background-size: contain;
+    }
+    #fourth{
+      background-size: contain;
+    }
+    /* .title h1{
+      font-size: 60px;
+    }
+    .title h6{
+      font-size: 40px;
+    }
+    .title p{
+      font-size: 10px;
+    } */
+    button{
+      padding: 10px 45px 10px 45px; 
+  }
+  .imagetext{
+    display: block;
+    flex: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagetext p{
+    width: 90%;
+    text-align: center;
+  }
+ .child p{
+  font-size: 25px;
+  font-weight: 0;
+  width: 80%;
+  text-align: center;
+  padding-left: 10%;
+ }
+ 
+ .dropdown {
+  display: block;
+  position: absolute;
+  left: 60%;
+
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #fff; /* Background color of the button */
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+ .navbar{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ }
+
+  
+  }
+  @media screen and (max-width: 775px){
+   
+    .menu{
+       display: block;
+        flex-wrap: wrap; 
+        
+    }
+    .dish h4{
+      font-size: 35px;
+    }
+    
+    #second p{
+      width: 70%;
+      font-size: 30px;
+      padding-bottom: 10px;
+  }
+  #fourth p{
+      font-size: 30px;
+      width: 70%;
+      margin: 0 auto;
+  }
+ .box p{
+  width: 90%;
+ }
+}
+@media screen and (max-width: 650px){
+  .navbar{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  .child p{
+    width: 90%;
+    padding-left: 12%;
+  }
+  .imagetext{
+    display: block;
+    flex: wrap;
+  }
+  .text p{
+    font-size: 30px;
+  }
+  #second{
+    background-size: contain;
+  }
+  #third{
+    background-size: contain;
+  }
+  #fourth{
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 645px){
+      .title h1{
+      font-size: 45px;
+    }
+    .title h6{
+      font-size: 30px;
+    }
+    .title p{
+      font-size: 13px;
+    }
+    button{
+      padding: 9px 35px 9px 35px; 
+  }
+  #second h3{
+    font-size: 35px;
+  }
+  #second p{
+    font-size: 19px;
+  }
+  .dish h4{
+    font-size: 30px;
+  }
+  .dish h4{
+    font-size: 20px;
+  }
+  .text h2{
+    font-size: 35px;
+  }
+  .text p{
+    font-size: 20px;
+  }
+  #fourth h3{
+    font-size: 35px;
+  }
+  #fourth p{
+    font-size: 19px;
+  }
+  .total h1{
+    font-size: 35px;
+  }
+  .total h2{
+    font-size: 20px;
+  }
+  .ratio{
+    width: 180px;
+    height: 180px;
+ 
+}
+}
+@media screen and (max-width: 400px){
+  #fifth p{
+    font-size: 18px;
+  }
+}
